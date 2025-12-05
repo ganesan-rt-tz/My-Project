@@ -20,7 +20,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Compile Java file
-        run: javac HelloWorld.java
+        run: javac Hello.java
 
       - name: Run Java program
         run: java HelloWorld
